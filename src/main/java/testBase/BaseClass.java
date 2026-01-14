@@ -63,7 +63,7 @@ public class BaseClass {
 
 				// os
 				if (os.equalsIgnoreCase("windows")) {
-					capabilities.setPlatform(Platform.WIN11);
+					capabilities.setPlatform(Platform.WIN10);
 				} else if (os.equalsIgnoreCase("mac")) {
 					capabilities.setPlatform(Platform.MAC);
 				} else {
@@ -71,7 +71,7 @@ public class BaseClass {
 					return;
 				}
 
-				String gridURL = "http://localhost:4444/wd/hub"; // Update if needed
+				String gridURL = "http://192.168.86.174:4444"; // Update if needed
 				//String gridURL = "http://192.168.86.78:4444/wd/hub"; // this will also work
 				
 
